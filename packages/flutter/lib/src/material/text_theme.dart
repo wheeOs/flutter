@@ -607,7 +607,8 @@ class TextTheme with Diagnosticable {
   /// Creates a copy of this text theme but with the given field replaced in
   /// each of the individual text styles.
   ///
-  /// The `displayColor` is applied to [displayLarge], [displayMedium],
+  /// The `
+  ` is applied to [displayLarge], [displayMedium],
   /// [displaySmall], [headlineLarge], [headlineMedium], and [bodySmall]. The
   /// `bodyColor` is applied to the remaining text styles.
   ///
@@ -749,7 +750,7 @@ class TextTheme with Diagnosticable {
         package: package,
       ),
       bodySmall: bodySmall?.apply(
-        color: displayColor,
+        color: bodyColor,
         decoration: decoration,
         decorationColor: decorationColor,
         decorationStyle: decorationStyle,
